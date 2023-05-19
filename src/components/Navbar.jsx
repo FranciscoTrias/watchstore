@@ -10,13 +10,14 @@ const Navbar = () => {
     <Box width="100%" paddingBottom="1rem">
       <Grid
         container
+        position="fixed"
         justifyContent="space-evenly"
-        bgcolor="primary.main"
         paddingTop="0.5rem"
         paddingBottom="0.5rem"
         paddingLeft="0.25rem"
         paddingRight="0.25rem"
-        color="primary.contrastText"
+        boxShadow="2px 2px 2px grey"
+        bgcolor="white"
       >
         <Grid item alignSelf="center">
           <Box display="flex">
