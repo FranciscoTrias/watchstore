@@ -7,7 +7,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <Box width="100%" paddingBottom="1rem">
+    <Box width="100%" paddingBottom="3.5rem">
       <Grid
         container
         position="fixed"
@@ -18,6 +18,7 @@ const Navbar = () => {
         paddingRight="0.25rem"
         boxShadow="2px 2px 2px grey"
         bgcolor="white"
+        sx={{zIndex: 1}}
       >
         <Grid item alignSelf="center">
           <Box display="flex">
