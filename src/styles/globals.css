@@ -10,8 +10,10 @@ html, body {
   margin: 0;
   height: 100%;
   width: 100%;
-  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
-  'Arial', sans-serif;
+  
+}
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+  font-family: 'Inter' !important;
 }
 
 

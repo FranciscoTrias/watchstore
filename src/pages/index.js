@@ -43,7 +43,7 @@ const Home = () => {
 </Grid>
     <Box display="flex" justifyContent="center" alignContent="center">
       <Typography variant="h2">Welcome to Focus</Typography>
-      
+      <h2>Welcome to Focus</h2>
     
     </Box>
     
