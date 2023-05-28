@@ -12,26 +12,27 @@ const Navbar = () => {
         container
         position="fixed"
         justifyContent="space-evenly"
-        
+        height="50px"
         paddingLeft="0.25rem"
         paddingRight="0.25rem"
         bgcolor="white"
         sx={{zIndex: 1}}
       >
-        <Grid item alignSelf="center" textAlign="center" width="120px" >
-          <Box>
-            <Box textAlign="center">
+        <Grid item alignSelf="center" width="120px" >
+          
+            <Box display="flex" justifyContent="center" >
             <a href="#">
-              <Typography paddingRight="0.5rem" cursor="pointer" variant="h6">
+              <Typography cursor="pointer" variant="h6">
                 Shop
               </Typography>
             </a>
             <a href="#">
-              <Typography variant="h6">About</Typography>
+              <Typography marginLeft="0.5rem" variant="h6">
+                About
+              </Typography>
             </a>
-
-            </Box>
           </Box>
+          
         </Grid>
         <Grid item alignSelf="center" textAlign="center" width="120px">
           <a href="/">
