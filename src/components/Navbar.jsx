@@ -5,6 +5,7 @@ import {
 } from '@mui/icons-material';
 import React from 'react';
 
+
 const Navbar = () => {
   return (
     <Box width="100%" >
@@ -36,7 +37,7 @@ const Navbar = () => {
         </Grid>
         <Grid item alignSelf="center" textAlign="center" width="120px">
           <a href="/">
-            <Typography variant="h4"> Logo </Typography>
+            <img src="/assets/images/deltri-logo.png"></img>
           </a>
         </Grid>
         <Grid item alignSelf="center" textAlign="center" width="120px">
