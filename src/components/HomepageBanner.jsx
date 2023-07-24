@@ -5,12 +5,12 @@ export const Homepagebanner = () => {
   return (
     <Box>
       <video
-        style={{ height: '350px', objectFit: 'cover', width: '100%' }}
+        style={{ marginTop: '3.3rem', height: '580px', objectFit: 'cover', width: '100%' }}
         autoPlay
         loop
         muted
       >
-        <source src="/assets/video/clock.mp4" type="video/mp4" />
+        <source src="/assets/video/videobackground.mp4" type="video/mp4" />
       </video>
     </Box>
   );
