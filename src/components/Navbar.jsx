@@ -5,10 +5,9 @@ import {
 } from '@mui/icons-material';
 import React from 'react';
 
-
 const Navbar = () => {
   return (
-    <Box width="100%" >
+    <Box width="100%">
       <Grid
         container
         position="fixed"
@@ -17,11 +16,10 @@ const Navbar = () => {
         paddingLeft="0.25rem"
         paddingRight="0.25rem"
         bgcolor="white"
-        sx={{zIndex: 1}}
+        sx={{ zIndex: 1 }}
       >
-        <Grid item alignSelf="center" width="120px" >
-          
-            <Box display="flex" justifyContent="center" >
+        <Grid item alignSelf="center" width="120px">
+          <Box display="flex" justifyContent="center">
             <a href="#">
               <Typography cursor="pointer" variant="h6">
                 Shop
@@ -33,7 +31,6 @@ const Navbar = () => {
               </Typography>
             </a>
           </Box>
-          
         </Grid>
         <Grid item alignSelf="center" textAlign="center" width="120px">
           <a href="/">
@@ -46,7 +43,10 @@ const Navbar = () => {
               <AccountCircleOutlined transform="scale(1.2)" />
             </a>
             <a href="#">
-              <ShoppingCartOutlined transform="scale(1.2)" sx={{ marginLeft: '0.5rem' }} />
+              <ShoppingCartOutlined
+                transform="scale(1.2)"
+                sx={{ marginLeft: '0.5rem' }}
+              />
             </a>
           </Box>
         </Grid>
