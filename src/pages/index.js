@@ -3,13 +3,14 @@ import React from 'react';
 import { Button, Box, Typography, Grid } from '@mui/material';
 import Homepagebanner from '@/components/HomepageBanner';
 import ProductFrontCard from '@/shared/components/ProductFrontCard';
+import Image from 'next/image';
 
 const Home = () => {
   return (
     <>
       <Grid container spacing={0} sx={{ flexGrow: 2 }}>
         <Grid item xs={12}>
-          <Homepagebanner></Homepagebanner>
+          <Homepagebanner />
         </Grid>
 
         <Grid
@@ -18,7 +19,6 @@ const Home = () => {
           sx={{
             marginTop: '2.5rem',
             marginBottom: '2.5rem',
-            
           }}
         >
           <Box
@@ -43,7 +43,7 @@ const Home = () => {
         <Grid item xs={2}>
           <Box bgcolor="cyan">
             box3
-            <img src="/assets/images/Product1.jpg"></img>
+            <Image alt="product image" src="/assets/images/Product1.jpg" />
           </Box>
         </Grid>
 
