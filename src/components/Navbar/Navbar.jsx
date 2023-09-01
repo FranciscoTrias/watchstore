@@ -34,9 +34,9 @@ const Navbar = () => {
           </Box>
         </Grid>
         <Grid item alignSelf="center" textAlign="center" width="120px">
-          <a href="/">
+          <Link href="/">
             <img src="/assets/images/deltri-logo.png"></img>
-          </a>
+          </Link>
         </Grid>
         <Grid item alignSelf="center" textAlign="center" width="120px">
           <Box className={styles.userButtons}>
