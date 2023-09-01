@@ -6,7 +6,7 @@ export const Homepagebanner = () => {
     <Box>
       <video
         style={{
-          marginTop: '3.3rem',
+          
           height: '580px',
           objectFit: 'cover',
           width: '100%',

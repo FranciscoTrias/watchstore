@@ -4,22 +4,23 @@ import {
   AccountCircleOutlined,
 } from '@mui/icons-material';
 import React from 'react';
+import styles from './Navbar.module.css';
 
 const Navbar = () => {
   return (
-    <Box width="100%">
+    <Box className={styles.navMenu}>
       <Grid
         container
-        position="fixed"
         justifyContent="space-evenly"
         height="50px"
         paddingLeft="0.25rem"
         paddingRight="0.25rem"
         bgcolor="white"
+        
         sx={{ zIndex: 1 }}
       >
         <Grid item alignSelf="center" width="120px">
-          <Box display="flex" justifyContent="center">
+          <Box className={styles.companyButtons}>
             <a href="#">
               <Typography cursor="pointer" variant="h6">
                 Shop
@@ -38,7 +39,7 @@ const Navbar = () => {
           </a>
         </Grid>
         <Grid item alignSelf="center" textAlign="center" width="120px">
-          <Box>
+          <Box className={styles.userButtons}>
             <a href="#">
               <AccountCircleOutlined transform="scale(1.2)" />
             </a>
@@ -49,6 +50,11 @@ const Navbar = () => {
               />
             </a>
           </Box>
+          <div class={styles.hamburger}>
+            <span class={styles.bar}></span>
+            <span class={styles.bar}></span>
+            <span class={styles.bar}></span>
+          </div>
         </Grid>
       </Grid>
     </Box>
