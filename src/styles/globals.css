@@ -16,5 +16,18 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   font-family: 'Inter' !important;
 }
 
+/* .bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
 
-
+@media(max-width:768px){
+  .hamburger{
+    display:block;
+  }
+} */
