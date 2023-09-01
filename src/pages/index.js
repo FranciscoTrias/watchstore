@@ -1,13 +1,14 @@
 import React from 'react';
-import {  Box, Grid } from '@mui/material';
+import { Box, Grid } from '@mui/material';
 
-import Homepagebanner from '@/components/HomepageBanner';
+import styles from './index.module.scss';
+import Homepagebanner from '@/components/homepagebanner/HomepageBanner';
 import ProductFrontCard from '@/shared/components/ProductFrontCard';
+
 
 const Home = () => {
   return (
-    <>
-      <Grid container spacing={0} sx={{ flexGrow: 2 }}>
+      <Grid container spacing={0} className={styles.grid_container}>
         <Grid item xs={12}>
           <Homepagebanner />
         </Grid>
@@ -15,15 +16,11 @@ const Home = () => {
         <Grid
           item
           xs={12}
-          sx={{
-            marginTop: '2.5rem',
-            marginBottom: '2.5rem',
-          }}
+          className={styles.grid_item_body}
         >
           <Box
-            display="flex"
             flexDirection={{ sm: 'column', xs: 'column', md: 'row' }}
-            sx={{ justifyContent: 'center', width: '100%' }}
+            className={styles.product_container}
           >
             <ProductFrontCard
               srcImage="/assets/images/Product3.jpg"
@@ -39,7 +36,6 @@ const Home = () => {
           </Box>
         </Grid>
       </Grid>
-    </>
   );
 };
 export default Home;

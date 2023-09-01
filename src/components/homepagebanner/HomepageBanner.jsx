@@ -1,16 +1,12 @@
 import { Box } from '@mui/material';
 import React from 'react';
+import styles from './HomepageBanner.module.scss';
 
 export const Homepagebanner = () => {
   return (
     <Box>
       <video
-        style={{
-          marginTop: '3.3rem',
-          height: '580px',
-          objectFit: 'cover',
-          width: '100%',
-        }}
+        className={styles.video}
         autoPlay
         loop
         muted
