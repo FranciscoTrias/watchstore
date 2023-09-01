@@ -5,6 +5,7 @@ import {
 } from '@mui/icons-material';
 import React from 'react';
 import styles from './Navbar.module.css';
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
@@ -34,9 +35,10 @@ const Navbar = () => {
           </Box>
         </Grid>
         <Grid item alignSelf="center" textAlign="center" width="120px">
-          <Link href="/">
+          <Link  href="/">
             <img src="/assets/images/deltri-logo.png"></img>
           </Link>
+          
         </Grid>
         <Grid item alignSelf="center" textAlign="center" width="120px">
           <Box className={styles.userButtons}>
